@@ -1,0 +1,129 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+a {
+  color: #03761c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #09a029;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+.nav-list {
+  padding: 0 0 0 2em;
+}
+
+.nav-item-bull {
+  margin: 0;
+  text-indent: -0.5em;
+  line-height: 1.5em;
+}
+
+.nav-item-bull::before {
+  content: "\02022";
+  font-size: 22px;
+  vertical-align: middle;
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.site-header {
+  border-bottom: solid 5px #eee;
+}
+
+.site-title, .site-subtitle {
+  font-weight: bold;
+}
+
+.site-title {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.site-subtitle {
+  font-size: 26px;
+}
+
+.main-nav, .main-content {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.main-nav {
+  width: 30%;
+}
+
+.main-content {
+  width: 70%;
+  margin-bottom: 3em;
+}
+
+.nav-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.page-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.article-text {
+  line-height: 1.5em;
+}
+
+.article-img-right {
+  float: right;
+  max-width: 25%;
+  margin-left: 1em;
+  border-radius: 3px;
+}
+
+.footer {
+  background-color: #eee;
+  border-radius: 3px;
+  padding: 1em;
+}
+
+.button {
+  -webkit-appearance: none;
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #666;
+}
+
+.footer-section {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-title {
+  margin: 0 0 1em 0;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  text-align: center;
+  margin: 3em 0 0 0;
+}
