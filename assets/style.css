@@ -124,6 +124,7 @@ li {
 
 .footer-copyright {
   font-size: 12px;
+  display: block;
   text-align: center;
   margin: 3em 0 0 0;
 }
